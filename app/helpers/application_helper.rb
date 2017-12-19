@@ -16,4 +16,8 @@ module ApplicationHelper
     end
 	end
 
+	def copyrigth_generator
+		JregidorViewTool::Renderer.copyright "Jorge Regidor", "All rights reserved"
+	end
+
 end
