@@ -37,6 +37,7 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
 gem 'jregidor_view_tool' , git: "https://github.com/jorgeregidor/jregidor_view_tool"
+gem 'petergate', '~> 1.8', '>= 1.8.1'
 
 
 group :development, :test do
