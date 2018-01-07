@@ -19,15 +19,18 @@
       <%= render "shared/blog_masthead" %>
     </header>
 
-     <main role="main" class="container">
-      <div class="row"> 
-        <%= yield %>
-        <%= render "shared/blog_sidebar" %>
-      </div>
-     </main> 
+      <main role="main" class="container">
+        <div class="row"> 
+          <%= yield %>
+          <%= render "shared/blog_sidebar" %>
+        </div>
+      </main> 
 
-     <%= render "shared/blog_footer" %>
-     <%= source_helper %>
+      <%= render "shared/blog_footer" %>
+      
+      <%= alerts %>
+      
+      <%= source_helper %>
      
   </body>
 </html>
