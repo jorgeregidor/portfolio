@@ -17,12 +17,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
           
+        <div id="background"> </div>
 
           <%= render "shared/application_nav"%>
-            <%= yield %>
-
-            <%= source_helper %>
+          
+          <%= yield %>
+            
           <%= render "shared/application_footer"%>
+
+          <%= source_helper %>
         </div>
       </div>
     </div>
