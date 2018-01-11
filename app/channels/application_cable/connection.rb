@@ -7,7 +7,7 @@ module ApplicationCable
   		guest.id = guest.object_id
   		guest.name = "Guest User"
   		guest.first_name = "Guest"
-  		guest.second_name = "User"
+  		guest.last_name = "User"
   		guest.email = "guest@user.com"
   		guest
   	end
