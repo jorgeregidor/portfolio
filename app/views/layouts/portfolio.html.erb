@@ -6,6 +6,10 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+
+    <%= favicon_link_tag 'favicon/favicon.ico' %>
+
     <meta name="keywords" content="<%= @seo_keywords %>">
 
     <%= stylesheet_link_tag    'portfolios', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -25,6 +29,5 @@
 
     <%= alerts %>
     
-    <%= source_helper %>
   </body>
 </html>

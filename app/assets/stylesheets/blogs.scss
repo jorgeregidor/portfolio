@@ -15,6 +15,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -32,6 +33,7 @@ h6,
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #333;
+  font-family: 'Roboto Slab', serif;
 }
 
 
@@ -194,4 +196,13 @@ h6,
 
 .comment-name{
   font-weight: 700;
+}
+
+.blogcrumb a{
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
+}
+
+.blog-sidebar-source{
+  margin-top: 20px;
 }
